@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title":"lorem, ipsum dolor sit amet consectetur adipisicing elit. eaque, voluptatum asperiores sapiente",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/illustration-with-fairytale-concept_23-2148486940.jpg?t=st=1721995662~exp=1721999262~hmac=3ec8c42c8845a3c51d1cd4e33977b274e729c56aaa0c1b850985925660793fa5&w=740"
+    },
+
+    {
+        "id": 2,
+        "name": "Sports Book",
+        "title":"lorem, ipsum dolor sit amet consectetur adipisicing elit. eaque, voluptatum asperiores sapiente",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/sport-flyer-template-with-photo_23-2148344320.jpg?t=st=1721995272~exp=1721998872~hmac=dd1c0bad9d5bbdd559a9fde91731f8b55b42e6b1318ad40e171453567ac4fbf0&w=740"
+    },
+
+    {
+        "id": 3,
+        "name": "Recipe Book",
+        "title":"lorem, ipsum dolor sit amet consectetur adipisicing elit. eaque, voluptatum asperiores sapiente",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-psd/healthy-food-poster-with-picture_23-2148520442.jpg?t=st=1721885934~exp=1721889534~hmac=f800af1e157f70f0e968879a1bc19a9f456d3b63dd53e25e596c976b7f5d835f&w=740"
+    },
+
+    {
+        "id": 4,
+        "name": "Music Book",
+        "title":"lorem, ipsum dolor sit amet consectetur adipisicing elit. eaque, voluptatum asperiores sapiente",
+        "price":80,
+        "category":"Music",
+        "image":"https://img.freepik.com/free-vector/artistic-poster-concept-music-party_23-2147755931.jpg?t=st=1721995188~exp=1721998788~hmac=2816a71f8103029a76327babdb0490024b48e6f99e3e4237f632a020567c47ba&w=740"
+    },
+
+    {
+        "id": 5,
+        "name": "Comedy Book",
+        "title":"lorem, ipsum dolor sit amet consectetur adipisicing elit. eaque, voluptatum sapiente",
+        "price":50,
+        "category":"Entertainment",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721884675~exp=1721888275~hmac=8290878a99cca46ec971186c5ef6476245b8543f018b49e41c9803e24d91bfa7&w=740"
+    },
+
+    {
+        "id": 6,
+        "name": "Horror Book",
+        "title":"lorem, ipsum dolor sit amet consectetur adipisicing elit. eaque, voluptatum asperiores sapiente",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/spooky-halloween-menu-template_23-2148649302.jpg?t=st=1721995578~exp=1721999178~hmac=19a8957e6bbcd116dfc1c3c642f2c9c35c9d4f0a9e066075b5d724eb890cf3b7&w=740"
+    },
+    
+    {
+        "id": 7,
+        "name": "Children Book",
+        "title":"lorem, ipsum dolor sit amet consectetur adipisicing elit. eaque, voluptatum asperiores sapiente",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/watercolor-illustration-knowledge-day-celebration_23-2150629087.jpg?t=st=1721885877~exp=1721889477~hmac=9f3694e4e5c03c183c5aed848d88d45feb0525c418fd82d242746d7cc9b7655d&w=740"
+    }
+]
