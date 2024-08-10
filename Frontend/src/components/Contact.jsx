@@ -1,18 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import toast from 'react-hot-toast';
 
 function Contact() {
+   
     const {
         register,
         handleSubmit,
+        reset,
         formState: { errors },
       } = useForm();
     
-      const onSubmit = (data) => console.log(data);
+      const onSubmit = (data) =>{
+         console.log(data);
+         toast.success('Submitted Successfully!');
+         reset();
+        }
 
   return (
     <>
+     
     <div className='flex h-screen items-center justify-center'>
        <div className='w-[600px]'>
             <div className='modal-box'>
