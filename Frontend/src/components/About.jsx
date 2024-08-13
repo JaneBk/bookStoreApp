@@ -17,7 +17,7 @@ function About() {
             </div>
             
         </div>
-        <div className='w-full order-1 md:w-1/2 flex justify-center'>
+        <div className='w-full order-1 my-5 md:w-1/2 flex justify-center'>
             <img src={store} className='w-[420px] h-[625px]'/>
         </div>
     </div>

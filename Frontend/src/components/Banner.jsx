@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../../public/Banner.jpg'
+import banner from '../../public/Banner.png';
 import Login from './Login';
 import Logout from './Logout';
 import { useAuth } from '../context/AuthProvider';
@@ -19,15 +19,15 @@ function Banner() {
                   <p className='text-xl'>We welcome you to the most interesting lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quis sed commodi est nisi nobis quae nemo repellat at labore enim perspiciatis quasi excepturi doloribus, voluptas adipisci corporis libero. Ab! We hope your journey here will be adipisicing elit. Fuga consectetur, qui numquam magnam quia perferendis quas.</p>
                   <p className='text-xl '>
                     Connect with us here!
-                    <div className='py-2'>
-                    {authUser ? (
-                      <Logout />
-                    ):(
-                    <div>
-                      <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duratioon-300 cursor-pointer" onClick={()=>document.getElementById("my_modal_3").showModal() } >Login</a>
-                      <Login/>
-                    </div>
-                    )}
+                    <div className='py-4'>
+                      {authUser ? (
+                        <Logout />
+                      ):(
+                      <div>
+                        <a className="bg-black dark:bg-slate-100 dark:text-black dark:hover:bg-slate-300 text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer" onClick={()=>document.getElementById("my_modal_3").showModal() } >Login</a>
+                        <Login/>
+                      </div>
+                      )}
                     </div>
                   </p>
               </div>

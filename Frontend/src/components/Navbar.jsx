@@ -44,7 +44,7 @@ function Navbar() {
   )
   return (
     <>
-      <div className={`max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${sticky?"sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out":""}`}>
+      <div className={`max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${sticky?"sticky-navbar shadow-md bg-base-200 dark:bg-slate-700 duration-300 transition-all ease-in-out":""}`}>
         <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
@@ -117,7 +117,7 @@ function Navbar() {
               <Logout />
             ):(
             <div>
-              <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duratioon-300 cursor-pointer" onClick={()=>document.getElementById("my_modal_3").showModal() } >Login</a>
+              <a className="bg-black dark:bg-slate-100 dark:text-black dark:hover:bg-slate-300 text-white px-3 py-2 rounded-md hover:bg-slate-800 duratioon-300 cursor-pointer" onClick={()=>document.getElementById("my_modal_3").showModal() } >Login</a>
               <Login/>
             </div>
             )}
