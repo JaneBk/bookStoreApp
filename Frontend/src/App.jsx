@@ -15,13 +15,15 @@ function App() {
 
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/course" element={authUser?<Courses/>:<Navigate to="/signup" />} />
-        <Route path="/signup" element={<Signup/>} />
-        <Route path="/contact" element={<Contactus/>} />
-        <Route path="/about" element={<Aboutus/>} />
-      </Routes>
+      <div className='dark:bg-slate-900 dark:text-white'>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/course" element={authUser?<Courses/>:<Navigate to="/signup" />} />
+          <Route path="/signup" element={<Signup/>} />
+          <Route path="/contact" element={<Contactus/>} />
+          <Route path="/about" element={<Aboutus/>} />
+        </Routes>
+      </div>
       <Toaster />
     </>
     );
