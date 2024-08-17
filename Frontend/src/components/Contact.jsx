@@ -26,11 +26,11 @@ function Contact() {
             <div className='modal-box'>
                 <form onSubmit={handleSubmit(onSubmit)} method="dialog">
                     {/* if there is a button in form, it will close the modal */}
-                    <Link to="/" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 dark:bg-slate-100 dark:text-black dark:hover:bg-slate-300">✕</Link>
-                    <h1 className='text-2xl font-semibold md:text-4xl dark:text-black'>Contact <span className='text-red-500'>us!!</span> :)</h1>
+                    <Link to="/" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
+                    <h1 className='text-2xl font-semibold md:text-4xl'>Contact <span className='text-red-500'>us!!</span> :)</h1>
 
                     {/* email */}
-                    <div className='mt-4 space-y-2 dark:text-black'>
+                    <div className='mt-4 space-y-2'>
                         <span>Email</span>
                         <br />
                         <input type="email" placeholder='Enter your email' className='w-80 px-3 py-1 border rounded-md outline-none' 
@@ -40,10 +40,10 @@ function Contact() {
                     </div>
                     
                     {/* message */}
-                    <div className='mt-4 space-y-2 dark:text-black'>
+                    <div className='mt-4 space-y-2'>
                         <span>Message</span>
                         <br />
-                        <input type="text" placeholder='Enter your nessage' className='w-80 px-3 py-1 border rounded-md outline-none'
+                        <input type="text" placeholder='Enter your message' className='w-80 px-3 py-1 border rounded-md outline-none'
                         {...register("message", { required: true })}/>
                         <br />
                         {errors.message && <span className='text-sm text-red-500'>This field is required</span>}
